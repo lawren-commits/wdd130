@@ -1,1 +1,160 @@
 
+/* WDD 130 Rafting Website Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0b6e4f;
+    --secondary-color: #ffffff;
+    --accent-color: #1d3557;
+    --light-color: #f4f4f4;
+    --text-color: #333333;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--light-color);
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+/* Main */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+/* Sections */
+
+section {
+    margin: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+/* Adventure Gallery */
+
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.adventure-gallery figure {
+    flex: 1 1 180px;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--primary-color);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
