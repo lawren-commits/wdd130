@@ -56,8 +56,9 @@ h1 {
     margin-bottom: 20px;
 }
  
+/* Make the Samoa image slightly larger than the profile picture */
 main img {
-    width: 200px;
+    width: 230px;
     height: auto;
     border-radius: 10px;
     border: 3px solid var(--primary-color);
