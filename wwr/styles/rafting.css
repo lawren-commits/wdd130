@@ -105,7 +105,7 @@ main {
 }
 
 /* Headings */
-.rafting4 img h2 {
+.happy-client img h2 {
     text-align: center;
     color: var(--secondary-color);
     margin: 30px 0 20px;
@@ -138,7 +138,7 @@ main {
     text-align: center;
 }
 
-.adventures img {
+.hero img {
     width: 100%;
     border-radius: 8px;
     border: 2px solid var(--primary-color);
