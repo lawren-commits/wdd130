@@ -1,37 +1,34 @@
 /* ===========================
    White Water Rafting Styles
    =========================== */
- 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
- 
+
 /* CSS Variables */
- 
+
 :root {
     --primary-color: #0077b6;
     --secondary-color: #d9edf7;
     --accent1-color: #003049;
- 
+
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
- 
- 
+
 /* BODY */
- 
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
     background-color: #ffffff;
 }
- 
- 
+
 /* PAGE WIDTH */
- 
+
 header,
 main,
 footer {
@@ -39,21 +36,19 @@ footer {
     max-width: 90%;
     margin: 0 auto;
 }
- 
- 
+
 /* HEADINGS */
- 
+
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
- 
- 
+
 /* ===========================
    HEADER
    =========================== */
- 
+
 header {
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -61,14 +56,13 @@ header {
     padding: 20px;
     background-color: var(--secondary-color);
 }
- 
+
 header img {
     width: 120px;
 }
- 
- 
+
 /* NAVIGATION */
- 
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
@@ -76,36 +70,35 @@ nav ul {
     list-style: none;
     width: 100%;
 }
- 
+
 nav li {
     list-style: none;
 }
- 
+
 nav a {
     text-decoration: none;
     color: var(--accent1-color);
     font-weight: bold;
     padding: 10px;
 }
- 
+
 nav a:hover {
     color: var(--primary-color);
 }
- 
- 
+
 /* ===========================
    HERO
    =========================== */
- 
+
 .hero {
     position: relative;
 }
- 
+
 .hero > img {
     display: block;
     width: 100%;
 }
- 
+
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -116,7 +109,7 @@ nav a:hover {
     color: white;
     opacity: 0.8;
 }
- 
+
 .hero article {
     position: absolute;
     bottom: 20px;
@@ -125,120 +118,116 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 20px;
 }
- 
+
 .hero article img {
     float: right;
     width: 125px;
     margin-left: 20px;
 }
- 
- 
+
 /* ===========================
    HISTORY
    =========================== */
- 
+
 .history {
     padding: 40px 20px;
 }
- 
+
 .history h2 {
     text-align: center;
     margin-bottom: 20px;
 }
- 
+
 .history-content {
     display: grid;
     grid-template-columns: 1fr 250px 1fr;
     gap: 20px;
     align-items: center;
 }
- 
+
 .history-content img {
     width: 250px;
     height: 180px;
     object-fit: cover;
 }
- 
- 
+
 /* ===========================
    ADVENTURES
    =========================== */
- 
+
 .adventures {
     padding: 40px 20px;
 }
- 
+
 .adventures h2 {
     text-align: center;
     margin-bottom: 20px;
 }
- 
+
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
     gap: 15px;
 }
- 
+
 .adventure-gallery figure {
     flex: 1;
     text-align: center;
 }
- 
+
 .adventure-gallery img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 5px;
 }
- 
+
 figcaption {
     margin-top: 10px;
     font-size: 0.9rem;
     font-weight: bold;
 }
- 
- 
+
 /* ===========================
    CONTACT PAGE
    =========================== */
- 
-.contact-intro {
+
+.company-info {
     text-align: center;
     margin: 30px 0;
 }
- 
-.contact-intro address {
-    font-style: normal;
+
+.company-info p {
     line-height: 1.8;
 }
- 
-.contact-area {
+
+.contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
     margin: 40px 0;
 }
- 
+
 .map iframe {
     width: 100%;
     height: 350px;
     border: 2px solid #ccc;
     border-radius: 8px;
 }
- 
+
 .contact-form {
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 10px;
 }
- 
+
 .contact-form form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
- 
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -247,40 +236,18 @@ figcaption {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
- 
+
 .contact-form textarea {
     height: 120px;
     resize: vertical;
 }
- 
-.contact-form fieldset {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-}
- 
-.contact-form legend {
-    font-weight: bold;
-}
- 
-.contact-form fieldset label {
-    display: block;
-    margin: 8px 0;
-}
- 
+
 .contact-form input[type="radio"],
 .contact-form input[type="checkbox"] {
     width: auto;
     margin-right: 8px;
 }
- 
-.checkbox {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 10px 0;
-}
- 
+
 .contact-form button {
     background-color: var(--primary-color);
     color: white;
@@ -290,50 +257,44 @@ figcaption {
     font-weight: bold;
     cursor: pointer;
 }
- 
+
 .contact-form button:hover {
     background-color: var(--accent1-color);
 }
- 
- 
+
 /* ===========================
    EMPLOYEES
    =========================== */
- 
+
 .employees {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.employee-grid {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
-    text-align: center;
-    margin: 40px 0;
+    margin-top: 20px;
 }
- 
-.employees h2 {
-    width: 100%;
-    margin-bottom: 20px;
-}
- 
-.employees figure {
+
+.employee-grid figure {
     flex: 1;
     min-width: 200px;
-    text-align: center;
 }
- 
-.employees img {
-    display: block;
-    margin: 0 auto;
+
+.employee-grid img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
 }
- 
- 
+
 /* ===========================
    FOOTER
    =========================== */
- 
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -342,62 +303,56 @@ footer {
     margin-top: 40px;
     border-top: 1px solid #ccc;
 }
- 
+
 footer p {
     font-size: 0.9rem;
 }
- 
+
 .socialmedia {
     display: flex;
     gap: 15px;
 }
- 
+
 .socialmedia img {
     width: 35px;
     height: 35px;
 }
- 
- 
+
 /* ===========================
    RESPONSIVE
    =========================== */
- 
+
 @media screen and (max-width: 700px) {
- 
+
     header,
     main,
     footer {
         width: 100%;
     }
- 
+
     header {
         grid-template-columns: 1fr;
         text-align: center;
     }
- 
+
     nav ul {
         flex-direction: column;
         gap: 10px;
     }
- 
+
     .history-content,
-    .contact-area {
+    .contact-grid {
         grid-template-columns: 1fr;
     }
- 
-    .adventure-gallery {
+
+    .adventure-gallery,
+    .employee-grid {
         flex-direction: column;
     }
- 
-    .employees {
-        flex-direction: column;
-        align-items: center;
-    }
- 
+
     footer {
         flex-direction: column;
         gap: 15px;
         text-align: center;
     }
 }
-has context menu
