@@ -1,83 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | White Water Rafting</title>
-    styles/rafting.css
+    ">
 </head>
+
 <body>
 
     <header>
-        .png" alt="White Water Rafting Logo" class="logo">
+        images/logo.png.png
 
         <nav>
-            index.html>
-            about.html
-            trips.html
-            <a href="contact.html">Contact Us</a>
+            <ul>
+                <li>">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
 
+        <!-- Company Information -->
         <section class="company-info">
             <h1>White Water Rafting Company</h1>
 
-            <p>123 Main River Street</p>
-            <p>Kolob, California</p>
-            <p>+1 999 999 9999</p>
-            <p>info@whitewaterrafting.com</p>
+            <p><strong>123 Main River Street</strong></p>
+            <p><strong>Kolob, California</strong></p>
+            <p><strong>+1 999 999 9999</strong></p>
+            <p><strong>info@whitewater.com</strong></p>
         </section>
 
-        <section class="contact-container">
+        <!-- Map and Form -->
+        <section class="contact-grid">
 
             <div class="map">
-                https://www.google.com/maps?q=Apia,Samoa&output=embed
+                <iframe
+                    src="https://www.google.com/maps?q=Apia,Samoa&output=embed"
+                    loading="lazy"
+                    allowfullscreen="">
                 </iframe>
             </div>
 
             <div class="contact-form">
+
                 <form>
 
                     <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Placeholder">
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Placeholder">
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
 
                     <p><strong>Message Purpose</strong></p>
 
                     <label>
-                        <input type="radio" name="purpose">
+                        <input type="radio" name="purpose" value="general">
                         General Inquiry
                     </label>
 
                     <label>
-                        <input type="radio" name="purpose">
+                        <input type="radio" name="purpose" value="reservation">
                         Reservation Question
                     </label>
 
                     <label>
-                        <input type="radio" name="purpose">
+                        <input type="radio" name="purpose" value="suggestion">
                         Website Suggestion
                     </label>
 
                     <label for="message">Message</label>
-                    <textarea id="message" rows="5" placeholder="Type here"></textarea>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here"></textarea>
 
                     <label>
-                        <input type="checkbox">
+                        <input type="checkbox" name="newsletter">
                         Please subscribe me to the monthly newsletter
                     </label>
 
                     <button type="submit">Get in Touch!</button>
 
                 </form>
+
             </div>
 
         </section>
 
+        <!-- Employee Profiles -->
         <section class="employees">
 
             <h2>We Are Here to Serve You</h2>
@@ -85,17 +96,17 @@
             <div class="employee-grid">
 
                 <figure>
-                    employee.avif" alt="Lead River Guide">
+                    images/employee.jpg
                     <figcaption>Lead River Guide</figcaption>
                 </figure>
 
                 <figure>
-                    images/employee.jpg" alt="Trip Coordinator">
+                    images/employee.webp
                     <figcaption>Trip Coordinator</figcaption>
                 </figure>
 
                 <figure>
-                    images/employee.webp
+                    images/employee.jpg
                     <figcaption>Safety Instructor</figcaption>
                 </figure>
 
@@ -109,18 +120,18 @@
 
         <p>&copy; 2026 White Water Rafting | Lawren Talamaivao</p>
 
-        <div class="social-links">
+        <div class="socialmedia">
 
-            .com" target="_blank">
-                " alt="Facebook">
+            https://facebook.com
+                images/facebook.png.jpg" alt="Facebook">
             </a>
 
-            ://instagram.com" target="_blank">
+            <a href="https://instagram.com">
                 instagram.png.webp" alt="Instagram">
             </a>
 
-            https://linkedin.com
-                images/linkedin.png.webp
+            <a href="https://linkedin.com">
+                .png.webp" alt="LinkedIn">
             </a>
 
         </div>
