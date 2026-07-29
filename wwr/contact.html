@@ -12,14 +12,14 @@
 
     <meta name="author" content="Lawren Talamaivao">
 
-    styles/rafting.css
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
 
     <header>
 
-        images/logo.png.png
+        <img src="images/logo.png" alt="White Water Rafting Logo">
 
         <nav aria-label="Main Navigation">
             <ul>
@@ -39,7 +39,7 @@
 
             <p><strong>123 Main River Street</strong></p>
             <p><strong>Kolob, California</strong></p>
-            <p><strong>+1 999 999 9999</strong></p>
+            <p><strong>+1 (999) 999-9999</strong></p>
             <p><strong>info@whitewater.com</strong></p>
         </section>
 
@@ -59,23 +59,25 @@
                 <form>
 
                     <label for="name">Name</label>
-                    <input type="text"
+                    <input
+                        type="text"
                         id="name"
                         name="name"
-                        placeholder="Placeholder"
+                        placeholder="Enter your name"
                         required>
 
                     <label for="email">Email</label>
-                    <input type="email"
+                    <input
+                        type="email"
                         id="email"
                         name="email"
-                        placeholder="Placeholder"
+                        placeholder="Enter your email"
                         required>
 
                     <p><strong>Message Purpose</strong></p>
 
                     <label>
-                        <input type="radio" name="purpose" value="general">
+                        <input type="radio" name="purpose" value="general" checked>
                         General Inquiry
                     </label>
 
@@ -91,10 +93,12 @@
 
                     <label for="message">Message</label>
 
-                    <textarea id="message"
+                    <textarea
+                        id="message"
                         name="message"
                         rows="5"
-                        placeholder="Type here"></textarea>
+                        placeholder="Type your message here"
+                        required></textarea>
 
                     <label>
                         <input type="checkbox" name="newsletter">
@@ -102,7 +106,7 @@
                     </label>
 
                     <button type="submit">
-                        Get in Touch!
+                        Send Message
                     </button>
 
                 </form>
@@ -118,18 +122,18 @@
             <div class="employee-grid">
 
                 <figure>
-                    if" alt="Lead River Guide">
-                    <figcaption>Lead River Guide</figcaption>
+                    <img src="images/employee1.jpg" alt="Lead River Guide">
+                    <figcaption>John Smith – Lead River Guide</figcaption>
                 </figure>
 
                 <figure>
-                    images/employee.jpg
-                    <figcaption>Trip Coordinator</figcaption>
+                    <img src="images/employee2.webp" alt="Trip Coordinator">
+                    <figcaption>Sarah Jones – Trip Coordinator</figcaption>
                 </figure>
 
                 <figure>
-                    images/employee.webp Instructor">
-                    <figcaption>Safety Instructor</figcaption>
+                    <img src="images/employee3.webp" alt="Safety Instructor">
+                    <figcaption>Jason Brown – Safety Instructor</figcaption>
                 </figure>
 
             </div>
@@ -140,22 +144,20 @@
 
     <footer>
 
-        <p>
-            &copy; 2026 White Water Rafting | Lawren Talamaivao
-        </p>
+        <p>&copy; 2026 White Water Rafting | Lawren Talamaivao</p>
 
         <nav class="socialmedia" aria-label="Social Media Links">
 
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                " alt="Facebook">
+                <img src="images/facebook.png" alt="Facebook">
             </a>
 
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                images/instagram.png.webp
+                <img src="images/instagram.png.webp" alt="Instagram">
             </a>
 
-            www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                images/linkedin.png.webp
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/linkedin.png.webp" alt="LinkedIn">
             </a>
 
         </nav>
