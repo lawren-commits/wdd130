@@ -380,10 +380,12 @@ footer p {
     text-align: center;
 }
 
+
 .newsletter {
-    margin: 40px 0;
     text-align: center;
+    margin: 40px 0;
 }
+
 
 .newsletter form {
     display: flex;
@@ -393,28 +395,26 @@ footer p {
     gap: 10px;
 }
 
+
 .newsletter input {
     padding: 10px;
 }
+
+
+.newsletter button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
 
 .cta {
     text-align: center;
     margin: 40px 0;
 }
 
-.button {
-    display: inline-block;
-    background-color: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.button:hover {
-    background-color: var(--accent1-color);
-}
 
 .grid-content {
     display: grid;
@@ -423,10 +423,16 @@ footer p {
     margin: 40px 0;
 }
 
+
 .grid-content img {
     width: 100%;
     height: 250px;
     object-fit: cover;
+}
+
+
+.grid-content article {
+    text-align: center;
 }
 
 /* ===========================
