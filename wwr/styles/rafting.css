@@ -479,4 +479,10 @@ footer p {
 }
 
 .trip-table th {
-    background-color: var(--primary
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
