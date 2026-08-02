@@ -308,16 +308,6 @@ footer p {
     font-size: 0.9rem;
 }
 
-.socialmedia {
-    display: flex;
-    gap: 15px;
-}
-
-.socialmedia img {
-    width: 35px;
-    height: 35px;
-}
-
 /* ===========================
    RESPONSIVE
    =========================== */
@@ -341,7 +331,9 @@ footer p {
     }
 
     .history-content,
-    .contact-grid {
+    .contact-grid,
+    .grid-content,
+    .trip-grid {
         grid-template-columns: 1fr;
     }
 
@@ -355,7 +347,9 @@ footer p {
         gap: 15px;
         text-align: center;
     }
+
 }
+
 /* ===========================
    HOME PAGE
    =========================== */
@@ -366,6 +360,8 @@ footer p {
 
 .hero-home img {
     width: 100%;
+    height: 300px;
+    object-fit: cover;
     display: block;
 }
 
@@ -390,7 +386,7 @@ footer p {
 .newsletter form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 300px;
     margin: 20px auto;
     gap: 10px;
 }
