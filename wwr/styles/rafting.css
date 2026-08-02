@@ -486,3 +486,12 @@ footer p {
 .trip-table tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 35px;
+    height: 35px;
+}
