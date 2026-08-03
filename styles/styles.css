@@ -53,6 +53,7 @@ h2 {
 main img {
     border: 3px solid var(--primary-color);
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 aside {
@@ -63,6 +64,7 @@ aside {
 aside img {
     border: 3px solid var(--primary-color);
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 footer {
