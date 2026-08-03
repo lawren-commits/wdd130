@@ -1,68 +1,87 @@
 /* WDD 130 Home Page Styles */
- 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 :root {
     --primary-color: #0b6e4f;
     --secondary-color: #f4f4f4;
     --accent-color: #1d3557;
     --text-color: #333333;
 }
- 
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-color);
     background-color: #ffffff;
     line-height: 1.6;
 }
- 
+
+/* Header */
+
 header {
     background-color: var(--primary-color);
     padding: 15px;
 }
- 
+
 nav {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
- 
+
 nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     padding: 8px 12px;
 }
- 
+
 nav a:hover {
     background-color: white;
     color: var(--primary-color);
     border-radius: 5px;
 }
- 
+
+/* Main Section */
+
 main {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
     text-align: center;
 }
- 
+
 h1 {
     color: var(--accent-color);
     margin-bottom: 20px;
 }
- 
-/* Make the Samoa image slightly larger than the profile picture */
+
 main img {
     width: 230px;
     height: auto;
     border-radius: 10px;
     border: 3px solid var(--primary-color);
     margin-bottom: 20px;
+}
+
+/* Aside Section */
+
+aside {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+aside h2 {
+    color: var(--accent-color);
+    margin-bottom: 15px;
 }
 
 aside img {
@@ -72,12 +91,16 @@ aside img {
     border: 3px solid var(--primary-color);
     margin-bottom: 20px;
 }
- 
+
+/* Paragraphs */
+
 p {
     font-size: 1.1rem;
     margin-top: 10px;
 }
- 
+
+/* Footer */
+
 footer {
     margin-top: 40px;
     padding: 20px;
