@@ -26,8 +26,6 @@ header {
 }
 
 nav {
-    background-color: var(--primary-color);
-    padding: 10px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -47,9 +45,9 @@ nav a:hover {
     border-radius: 5px;
 }
 
-  /* Main  */
+/* Main */
 
-main  {
+main {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
@@ -61,47 +59,51 @@ h1 {
     margin-bottom: 20px;
 }
 
-  /* Profile image */
+/* Profile image */
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 3px solid var(--primary-color);
-    padding: 2px
-    box-shadow: 0 0 30px gray;
+    padding: 2px;
+    box-shadow: 0 0 10px gray;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-  /* Paragraph */ 
+/* Paragraphs */
 
 p {
-    padding: 0
     font-size: 1.1rem;
     margin-top: 10px;
 }
 
-   /* Aside */
+/* Aside */
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
     background-color: var(--secondary-color);
-    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     text-align: center;
+    border-radius: 10px;
 }
 
-  /* Aside image*/
-
 aside img {
+    width: 300px;
+    height: auto;
     border: 3px solid var(--primary-color);
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-   /* Footer */
+aside h2 {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+/* Footer */
 
 footer {
     margin-top: 15px;
